@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css"/>
+	<title>Test</title>
+</head>
+<body>
+
+	<div class="container">
+
+		<button id="popup-open-btn">Начать</button>
+
+		<div class="info hidden" id="info"></div>
+
+	</div>
+
+	<div class="modal" id="popup-model">
+
+		<div class="form">
+			<h2>Заполните данные</h2>
+			<div class="data">
+
+				<div class="first-colmn">
+					<h3>ФИО</h3>
+					<input type="text" placeholder="Имя" id="firstName"></input>
+					<input type="text" placeholder="Фамилия" id="lastName"></input>
+					<input type="text" placeholder="Отчество" id="middleName"></input>
+				</div>
+
+				<div class="second-colmn">
+					<h3>Информация</h3>
+					<input type="text" placeholder="Сколько, ты, зарабатываешь" id="money"></input>
+					<input type="text" placeholder="Место работы" id="workplace"></input>
+				</div>
+				
+			</div>
+			<button id="send-btn">Отправить</button>
+		</div>
+
+	</div>
+
+	<script src="index.js"></script>
+
+</body>
+</html>

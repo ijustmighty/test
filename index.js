@@ -20,11 +20,11 @@ document.getElementById("send-btn").addEventListener("click", function() {
 	let workplace = document.getElementById("workplace").value;
 
 	let data = {
-			firstName: firstName,
-			lastName: lastName,
-			middleName: middleName,
-			income: income,
-			workplace: workplace
+		lastName: lastName,
+		firstName: firstName,
+		middleName: middleName,
+		income: income,
+		workplace: workplace
 	};
 
 	let jsonData = JSON.stringify(data, null, 2);
